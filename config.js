@@ -10,7 +10,7 @@ const defaultOwner = '2348115316627';
 
 
 // Check for the OWNERS environment variable; if not found, use the default
-const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || 'your number';  // put your number here
+const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || '2348115316627';  // put your number here
 
 const ownerlist = ownervb.split(';');
 
